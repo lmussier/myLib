@@ -15,7 +15,7 @@ project(myLib VERSION 1.0.0 LANGUAGES CXX)
 enable_testing()
 
 #Set default install path
-set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../install_dir/")
+set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../install_dir/" CACHE PATH "Where to install myLib"))
 
 #Set path to Dependencies 
 set(GTEST_ROOT_DIR "${CMAKE_CURRENT_LIST_DIR}/../install_dir/" CACHE PATH "Root folder of the google test framework installation")
