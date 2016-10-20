@@ -10,7 +10,7 @@ if(NOT DEFINED CMAKE_BUILD_TYPE OR CMAKE_BUILD_TYPE STREQUAL "")
     set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type")
 endif()
 
-project(myLib VERSION 1.0.0 LANGUAGES CXX)
+project(myLib VERSION 1.0.0 LANGUAGES C CXX)
 
 enable_testing()
 
