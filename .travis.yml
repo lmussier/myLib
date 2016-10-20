@@ -33,8 +33,6 @@ addons:
     - gcc-4.9
     - g++-4.9
     - clang-3.7
-    - gcov
-    - valgrind
     - libgtest-dev
 
 os:
