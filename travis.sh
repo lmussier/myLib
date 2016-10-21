@@ -10,6 +10,3 @@ cmake -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE ../../myLib
 make && make test
 
 cd -
-
-ls -l
-find . -name *.gcno
